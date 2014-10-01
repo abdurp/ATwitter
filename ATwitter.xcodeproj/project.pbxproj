@@ -26,6 +26,8 @@
 		84C4CDB619DB9B6900366A62 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C4CDB219DB9B6900366A62 /* favorite.png */; };
 		84C4CDB719DB9B6900366A62 /* retweet_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C4CDB319DB9B6900366A62 /* retweet_on.png */; };
 		84C4CDB819DB9B6900366A62 /* retweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C4CDB419DB9B6900366A62 /* retweet.png */; };
+		84C4CDBB19DBB2ED00366A62 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 84C4CDB919DBB2ED00366A62 /* Readme.md */; };
+		84C4CDBC19DBB2ED00366A62 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C4CDBA19DBB2ED00366A62 /* TemplateIcon2x.png */; };
 		F4373005C9284D49B5A40390 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BCA2D43F564E92A8767F32 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		84C4CDB219DB9B6900366A62 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite.png; path = ../../../../Downloads/favorite.png; sourceTree = "<group>"; };
 		84C4CDB319DB9B6900366A62 /* retweet_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = retweet_on.png; path = ../../../../Downloads/retweet_on.png; sourceTree = "<group>"; };
 		84C4CDB419DB9B6900366A62 /* retweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = retweet.png; path = ../../../../Downloads/retweet.png; sourceTree = "<group>"; };
+		84C4CDB919DBB2ED00366A62 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		84C4CDBA19DBB2ED00366A62 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 		84046D2A19D73ED90065BF61 = {
 			isa = PBXGroup;
 			children = (
+				84C4CDB919DBB2ED00366A62 /* Readme.md */,
+				84C4CDBA19DBB2ED00366A62 /* TemplateIcon2x.png */,
 				84046D3519D73ED90065BF61 /* ATwitter */,
 				84046D4B19D73ED90065BF61 /* ATwitterTests */,
 				84046D3419D73ED90065BF61 /* Products */,
@@ -270,6 +276,7 @@
 				84046D3E19D73ED90065BF61 /* Main.storyboard in Resources */,
 				84046D4319D73ED90065BF61 /* LaunchScreen.xib in Resources */,
 				84046D4019D73ED90065BF61 /* Images.xcassets in Resources */,
+				84C4CDBC19DBB2ED00366A62 /* TemplateIcon2x.png in Resources */,
 				84C4CDB519DB9B6900366A62 /* favorite_on.png in Resources */,
 				84C4CDB819DB9B6900366A62 /* retweet.png in Resources */,
 				84C4CDB719DB9B6900366A62 /* retweet_on.png in Resources */,
@@ -325,6 +332,7 @@
 			files = (
 				8429D46D19DA79E30028FCFF /* ComposeViewController.swift in Sources */,
 				8403EBE019D748750068B738 /* TwitterClient.swift in Sources */,
+				84C4CDBB19DBB2ED00366A62 /* Readme.md in Sources */,
 				8403EBDD19D746B50068B738 /* ATwitter-Bridging-Header.m in Sources */,
 				84046D3B19D73ED90065BF61 /* ViewController.swift in Sources */,
 				8403EBE919D7D8EA0068B738 /* TweetCell.swift in Sources */,
