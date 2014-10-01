@@ -27,7 +27,7 @@ class ComposeViewController: UIViewController {
         handleLabel.text = User.currentUser?.screenName
         
         if replyUserName != nil{
-            tweetArea.text = replyUserName
+            tweetArea.text = "@\(replyUserName)"
         }
         
         if User.currentUser?.profileImageUrl != nil {

@@ -27,7 +27,7 @@ Optional Stories:
 
 Known Issues:
 
-- Un-Reteet Not implemented
+- Un-Retweet Not implemented
 
 Installation:
 

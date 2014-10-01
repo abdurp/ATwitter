@@ -386,7 +386,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zzs-1K-O6x">
-                                <rect key="frame" x="16" y="160" width="549" height="89"/>
+                                <rect key="frame" x="16" y="160" width="549" height="105"/>
                                 <string key="text">This tweet is trying to be a very very long tweet to accommodate AutoLayout Constraints but still gotta be within the 140 character limit as decided by Twitter @Twitter </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -449,6 +449,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Qak-K5-n1G" kind="presentation" identifier="replyButtonSegue" id="NgN-gm-USf"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -491,6 +494,6 @@
         <image name="retweet.png" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bh6-Ag-wG6"/>
+        <segue reference="NgN-gm-USf"/>
     </inferredMetricsTieBreakers>
 </document>

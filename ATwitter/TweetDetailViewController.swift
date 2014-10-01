@@ -8,9 +8,6 @@
 
 import UIKit
 
-
-
-
 class TweetDetailViewController: UIViewController {
 
     var  tweet: Tweet!
@@ -58,12 +55,10 @@ class TweetDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        if segue.identifier == "replySegue" {
+        if segue.identifier == "replySegue" || segue.identifier == "replyButtonSegue" {
             let composeVC = segue.destinationViewController.viewControllers![0] as ComposeViewController
-            //composeVC.replyUserName = screenNameLabel.text
-            composeVC.replyUserName = "@abdurp" //composeVC.replyUserName
+            composeVC.replyUserName = tweet!.user!.screenName
         }
     }
     
