@@ -38,7 +38,7 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
         
         getTweets()
         
-        NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: "reloadTweets", userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: "reloadTweets", userInfo: nil, repeats: false)
         
         self.refreshControl = UIRefreshControl()
         self.refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
