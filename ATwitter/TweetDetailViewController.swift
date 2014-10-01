@@ -19,6 +19,7 @@ class TweetDetailViewController: UIViewController {
     @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var favoriteButton: UIButton!
     @IBOutlet weak var retweetButton: UIButton!
+    @IBOutlet weak var retweetedLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -32,6 +33,14 @@ class TweetDetailViewController: UIViewController {
         }
         
         tweetTextLabel.text = tweet?.text
+        
+        var result: NSComparisonResult
+        
+        if tweet?.text?.rangeOfString("RT @") != nil {
+            retweetedLabel.hidden = false
+             retweetedLabel.text = "\(tweet!.user!.name!) retweeted"
+        }
+        
         
         countLabel.text = "\(tweet!.retweetCount!) RETWEETS    \(tweet!.favoriteCount!) FAVORITES"
     
