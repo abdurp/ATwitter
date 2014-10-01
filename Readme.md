@@ -28,6 +28,8 @@ Optional Stories:
 Known Issues:
 
 - Un-Retweet Not implemented
+- If a user has retweeted a tweet, the user's and name show up with the RT @ tweet.
+- If a tweet has been retweeted, the cell does not add dynamic constraints
 
 Installation:
 
